@@ -1,0 +1,5 @@
+apps:
+  example-app:
+    name: example
+    command: bun run dev
+    cwd: apps/example

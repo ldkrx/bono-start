@@ -1,0 +1,17 @@
+{
+    "name": "mono-dev",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "bun index.ts",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "concurrently": "^9.2.1",
+        "prettier": "^3.7.3"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    }
+}
